@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let hang = "<table border='1px'>" ;
+        let i = 1 ;
+        for (i = 1; i < 10; i++) {
+             hang = hang + "<tr>"
+                let j = 1 ;
+                for (j = 1; j < 10; j++) {
+                    hang = hang + "<td>" + j + "*" + i + "=" + j*i + "</td>";
+                }
+            hang = hang + "</tr>" ;
+        }
+        hang = hang + "</table>" ;
+        document.write(hang);
+
+    </script>
+
+</body>
+</html>
